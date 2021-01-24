@@ -10,6 +10,10 @@ param(
 [string]$attach_dbs
 )
 
+# install Invoke-sqlcmd
+add-pssnapin sqlserverprovidersnapin100
+add-pssnapin sqlservercmdletsnapin100
+
 # start the service
 Write-Verbose "Starting SQL Server..."
 start-service MSSQL`$SQL
