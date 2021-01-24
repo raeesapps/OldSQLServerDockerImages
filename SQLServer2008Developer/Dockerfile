@@ -1,7 +1,7 @@
 # mssql server 2014 express image listening on static port 1433
 #
-# Note: This dockerfile is based on Buc Rogers' work here:
-# https://github.com/brogersyh/Dockerfiles-for-windows/tree/master/sqlexpress
+# Note: This dockerfile is based on Microsoft's work here:
+# https://github.com/microsoft/sql-server-samples/blob/cc2402f91e37ce9ad7e108f3f51bbfe99f201e0b/samples/manage/windows-containers/mssql-server-2014-express-windows/dockerfile
 #
 # .NET 3.5 required for SQL Server
 FROM mcr.microsoft.com/dotnet/framework/sdk:3.5-20191008-windowsservercore-ltsc2019
