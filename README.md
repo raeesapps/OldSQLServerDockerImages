@@ -7,7 +7,7 @@ Once the images are built from the Dockerfiles, you can create SQL Server Develo
 Instructions:
 Acquire the SQL Server 2008 R2 Developer ISO and the SQL Server 2012 Developer ISO
 
-Extract the contents of the ISO into folders SQLServer2008Developer\sql_server_2008_dev and SQLServer2012Developer\lol respectively
+Extract the contents of the ISO into folders SQLServer2008Developer\sql_server_2008_dev and SQLServer2012Developer\sql_server_2012_dev respectively
 
 CD into SQLServer2008Developer and SQLServer2012Developer
 

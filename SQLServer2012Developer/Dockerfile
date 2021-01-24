@@ -15,7 +15,7 @@ ENV sa_password ****
 ENV attach_dbs "[]"
 
 # make install files accessible
-COPY lol /
+COPY sql_server_2012_dev /
 COPY start.ps1 /
 WORKDIR /
 
