@@ -21,7 +21,7 @@ COPY sql_server_2008_dev /
 COPY start.ps1 /
 WORKDIR /
 
-# download and install Microsoft SQL 2014 Express Edition in one step
+# Install Microsoft SQL 2008 Developer Edition in one step
 RUN /setup.exe /q /ACTION=Install /INSTANCENAME=SQL /FEATURES=SQLEngine /SQLSVCACCOUNT="NT AUTHORITY\SYSTEM" /SQLSYSADMINACCOUNTS="BUILTIN\ADMINISTRATORS" /TCPENABLED=1 /NPENABLED=0 /SKIPRULES=PerfMonCounterNotCorruptedCheck /AGTSVCACCOUNT="NT AUTHORITY\SYSTEM" /IACCEPTSQLSERVERLICENSETERMS
 
 # Set registry values
